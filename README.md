@@ -19,17 +19,17 @@
 
 ## Step 4 - Homework
 
-### 1. Personal Greeting Card
+  ### 1. Personal Greeting Card
 
-- Create a simple `Greeting Card` component that takes a name prop and displays a message like "Hello, [name]!"
+  - Create a simple `Greeting Card` component that takes a name prop and displays a message like "Hello, [name]!"
 
-* Utwórz prosty komponent `Kartka z pozdrowieniami`, który przyjmuje `name` prop i wyświetla komunikat w rodzaju „Witam, [name]!”
+  * Utwórz prosty komponent `Kartka z pozdrowieniami`, który przyjmuje `name` prop i wyświetla komunikat w rodzaju „Witam, [name]!”
 
 ### 2. User Profile
 
 - Create two components: `ProfilePicture` and `ProfileDetails`. `ProfilePicture` should accept a src prop for the image URL and ProfileDetails should accept name and email props. Then, compose these components inside a parent `UserProfile` component.
 
-* Utwórz dwa komponenty: `ProfilePicture` i `ProfileDetails`. `ProfilePicture` powinien akceptować właściwość src dla adresu URL obrazu, a ProfileDetails powinna akceptować właściwości nazwy i adresu e-mail. Następnie utwórz te komponenty wewnątrz nadrzędnego komponentu `UserProfile`.
+* Utwórz dwa komponenty: `ProfilePicture` i `ProfileDetails`. `ProfilePicture` powinien akceptować właściwość src dla adresu URL obrazu, a `ProfileDetails` powinna akceptować właściwości nazwy i adresu e-mail. Następnie utwórz te komponenty wewnątrz nadrzędnego komponentu `UserProfile`.
 
 ### 3. Like Button
 

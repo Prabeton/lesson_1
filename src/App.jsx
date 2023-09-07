@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
 import GreetingCard from './components/GreetingCard';
+import UserProfile from './components/UserProfile';
 import './App.css';
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <div className="app">
       <h1>React Lesson One</h1>
       <GreetingCard name="Przemysław"/>
+      <UserProfile />
     </div>
   );
 };
