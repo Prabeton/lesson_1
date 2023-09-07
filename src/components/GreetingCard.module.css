@@ -1,0 +1,15 @@
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 60px;
+	background-color: beige;
+	color: peru;
+	border: 2px solid #222;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Courier New', Courier, monospace;
+	
+}

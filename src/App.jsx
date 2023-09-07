@@ -1,53 +1,13 @@
-import { createRoot } from "react-dom";
-import Student from "./components/Student";
+import { createRoot } from "react-dom/client";
+import GreetingCard from './components/GreetingCard';
+import './App.css';
 
-const students = [
-  {
-    name: "Łukasz",
-    subject: "Frontend",
-    description: "Very good student",
-  },
-  {
-    name: "Mariola",
-    subject: "Backend",
-    description: "The best of the bests",
-  },
-  {
-    name: "Przemek",
-    subject: "Fullstack",
-    description: "Pretty good",
-  },
-  {
-    name: "Stefan",
-    subject: "Analyst",
-    description: "Medium",
-  },
-];
+const App = () => {
 
-const student = {
-  name: "Łukasz",
-  subject: "Frontend",
-  description: "Very good student",
-};
-
-const App = (props) => {
-  console.log("props", props);
-
-  const handleClick = (event) => {
-    console.log("event", event);
-    alert(`Siemka`);
-  };
   return (
-    <div>
-      <h1>Lista studentów</h1>
-      {students.map(({ name, subject, description }) => (
-        <Student
-          name={name}
-          subject={subject}
-          description={description}
-          onClick={handleClick}
-        />
-      ))}
+    <div className="app">
+      <h1>React Lesson One</h1>
+      <GreetingCard name="Przemysław"/>
     </div>
   );
 };
