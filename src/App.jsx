@@ -4,6 +4,7 @@ import GreetingCard from './components/GreetingCard';
 import UserProfile from './components/UserProfile';
 import LikeButton from './components/LikeButton';
 import Todo from './components/Todo';
+import ProductList from './components/ProductList';
 import './App.css';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Todo taskName="Zafugować płytki" />
       <Todo taskName="Położyć kostkę na werandzie" />
       <Todo taskName="Kupić dekski na płot" />
+      <ProductList />
     </div>
   );
 };

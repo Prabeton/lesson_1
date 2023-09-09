@@ -9,3 +9,7 @@ button {
 	font-weight: 700;
 	color: azure;
 }
+button:hover {
+	cursor: pointer;
+	background-color: darkgreen;
+}

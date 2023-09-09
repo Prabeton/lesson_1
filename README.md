@@ -37,11 +37,11 @@
 
   * Utwórz komponent `LikeButton`. Powinien mieć przycisk wyświetlający liczbę. Po każdym kliknięciu przycisku liczba powinna wzrosnąć o jeden. Użyj do tego haka useState.
 
-### 4. Todo List Item
+  ### 4. Todo List Item
 
-- Build a `Todo` component that displays a task. It should accept the task name as a prop and have a checkbox next to it. When the checkbox is checked, the task name should have a strikethrough.
+  - Build a `Todo` component that displays a task. It should accept the task name as a prop and have a checkbox next to it. When the checkbox is checked, the task name should have a strikethrough.
 
-* Zbuduj komponent `Todo`, który wyświetla zadanie. Powinien akceptować nazwę zadania jako prop i mieć obok niego pole wyboru. Gdy pole wyboru jest zaznaczone, nazwa zadania powinna być przekreślona.
+  * Zbuduj komponent `Todo`, który wyświetla zadanie. Powinien akceptować nazwę zadania jako prop i mieć obok niego pole wyboru. Gdy pole wyboru jest zaznaczone, nazwa zadania powinna być przekreślona.
 
 ### 5. Product List
 

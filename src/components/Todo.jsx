@@ -11,7 +11,7 @@ const Todo = ( { taskName } ) => {
 		<div className={styles.todo}>
 			<label>
 				<span className={isChecked ? styles.strikethrough : styles.taskName}>{taskName}</span>
-				<input type="checkbox" checked={isChecked} onChange={invertChecked} />
+				<input className={styles.checkbox} type="checkbox" checked={isChecked} onChange={invertChecked} />
 			</label>	
 		</div>
 	);
