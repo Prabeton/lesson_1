@@ -1,0 +1,19 @@
+.accordionItem {
+	display: flex;
+	background-color: #777;
+	font-size: 21px;
+	font-family: monospace;
+}
+.title {
+	background-color: #777;
+	color: #111;
+}
+.title:hover {
+	color: rgb(15, 100, 57);
+	cursor: pointer;
+}
+.content {
+	background-color: #777;
+	margin-left: 30px;
+	color: rgb(120, 35, 30);
+}

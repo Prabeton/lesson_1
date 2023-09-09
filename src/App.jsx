@@ -5,6 +5,7 @@ import UserProfile from './components/UserProfile';
 import LikeButton from './components/LikeButton';
 import Todo from './components/Todo';
 import ProductList from './components/ProductList';
+import Accordion from './components/Accordion';
 import './App.css';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Todo taskName="Położyć kostkę na werandzie" />
       <Todo taskName="Kupić dekski na płot" />
       <ProductList />
+      <Accordion />
     </div>
   );
 };
