@@ -31,23 +31,23 @@
 
   * Utwórz dwa komponenty: `ProfilePicture` i `ProfileDetails`. `ProfilePicture` powinien akceptować właściwość src dla adresu URL obrazu, a `ProfileDetails` powinna akceptować właściwości nazwy i adresu e-mail. Następnie utwórz te komponenty wewnątrz nadrzędnego komponentu `UserProfile`.
 
-### 3. Like Button
+  ### 3. Like Button
 
-- Create a `LikeButton` component. It should have a button that displays a count. Every time the button is clicked, the count should increase by one. Use the useState hook for this.
+  - Create a `LikeButton` component. It should have a button that displays a count. Every time the button is clicked, the count should increase by one. Use the useState hook for this.
 
-* Utwórz komponent `LikeButton`. Powinien mieć przycisk wyświetlający liczbę. Po każdym kliknięciu przycisku liczba powinna wzrosnąć o jeden. Użyj do tego haka useState.
+  * Utwórz komponent `LikeButton`. Powinien mieć przycisk wyświetlający liczbę. Po każdym kliknięciu przycisku liczba powinna wzrosnąć o jeden. Użyj do tego haka useState.
 
 ### 4. Todo List Item
 
 - Build a `Todo` component that displays a task. It should accept the task name as a prop and have a checkbox next to it. When the checkbox is checked, the task name should have a strikethrough.
 
-* Zbuduj komponent `Todo`, który wyświetla zadanie. Powinien akceptować nazwę zadania jako rekwizyt i mieć obok niego pole wyboru. Gdy pole wyboru jest zaznaczone, nazwa zadania powinna być przekreślona.
+* Zbuduj komponent `Todo`, który wyświetla zadanie. Powinien akceptować nazwę zadania jako prop i mieć obok niego pole wyboru. Gdy pole wyboru jest zaznaczone, nazwa zadania powinna być przekreślona.
 
 ### 5. Product List
 
 - Make a `Product` component which displays a product's name, price, and description passed as props. Then, make a ProductList component that takes an array of products and renders a list of `Product` components.
 
-* Utwórz komponent `Produkt`, który wyświetla nazwę produktu, cenę i opis przekazany jako rekwizyty. Następnie utwórz komponent `ProductList`, który pobiera tablicę produktów i wyświetla listę komponentów `Produkt`.
+* Utwórz komponent `Produkt`, który wyświetla nazwę produktu, cenę i opis przekazane jako props. Następnie utwórz komponent `ProductList`, który pobiera tablicę produktów i wyświetla listę komponentów `Produkt`.
 
 ### 6. Accordion
 
@@ -59,13 +59,13 @@
 
 - Build a `Comment` component that takes username and commentText as props. Next, make a `CommentList` component that receives an array of comments. This should display a list of comments, demonstrating props drilling as you pass individual comment details down to the `Comment` component. Add a counter at the top of the `CommentList` showing the number of comments.
 
-* Zbuduj komponent `Comment`, który przyjmuje nazwę użytkownika i tekst komentarza jako rekwizyty. Następnie utwórz komponent `CommentList`, który będzie odbierał tablicę komentarzy. Powinno to wyświetlić listę komentarzy, pokazując drążenie rekwizytów podczas przekazywania szczegółów poszczególnych komentarzy do komponentu `Comment`. Dodaj licznik na górze `Listy komentarzy`, pokazujący liczbę komentarzy.
+* Zbuduj komponent `Comment`, który przyjmuje 'username' i tekst komentarza jako props. Następnie utwórz komponent `CommentList`, który będzie odbierał tablicę komentarzy. Powinno to wyświetlić listę komentarzy, pokazując 'props drilling' podczas przekazywania szczegółów poszczególnych komentarzy do komponentu `Comment`. Dodaj licznik na górze `Listy komentarzy`, pokazujący liczbę komentarzy.
 
 ### 8. Dynamic Tabs
 
 - Create a `Tab` component that takes a label and children. Then, make a `TabList` component that composes multiple Tab components. Only the content of the selected tab should be visible. This will involve passing down callback functions as props and lifting up state.
 
-* Utwórz komponent `Tab`, który pobiera etykietę i elementy podrzędne. Następnie utwórz komponent `TabList`, który składa się z wielu komponentów Tab. Widoczna powinna być tylko zawartość wybranej zakładki. Będzie to obejmować przekazywanie funkcji wywołania zwrotnego jako rekwizytów i podnoszenie stanu.
+* Utwórz komponent `Tab`, który pobiera 'label' i elementy podrzędne (children). Następnie utwórz komponent `TabList`, który składa się z wielu komponentów Tab. Widoczna powinna być tylko zawartość wybranej zakładki. Będzie to obejmować przekazywanie funkcji wywołania zwrotnego jako prop i podnoszenie stanu.
 
 ### 9. Theme Switcher
 
@@ -94,7 +94,7 @@ The nesting can be represented with margins or different background shades to di
 
 * Komponent `Comment` powinien przyjmować dodatkową opcję odpowiedzi.
 Użyj haka useState do zarządzania listą odpowiedzi.
-Włącz wiercenie rekwizytów, aby obsłużyć zagnieżdżoną strukturę odpowiedzi.
+Włącz 'props drilling', aby obsłużyć zagnieżdżoną strukturę odpowiedzi.
 Zagnieżdżenie można przedstawić za pomocą marginesów lub różnych odcieni tła w celu rozróżnienia poziomów.
 
 ## Last but not least

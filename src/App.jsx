@@ -3,6 +3,7 @@ import { useState } from 'react';
 import GreetingCard from './components/GreetingCard';
 import UserProfile from './components/UserProfile';
 import LikeButton from './components/LikeButton';
+import Todo from './components/Todo';
 import './App.css';
 
 const App = () => {
@@ -17,6 +18,10 @@ const App = () => {
       <GreetingCard name="Przemysław"/>
       <UserProfile />
       <LikeButton count={count} onClick={countUp} />
+      <Todo taskName="Naprawić drzwi wejściowe" />
+      <Todo taskName="Zafugować płytki" />
+      <Todo taskName="Położyć kostkę na werandzie" />
+      <Todo taskName="Kupić dekski na płot" />
     </div>
   );
 };
