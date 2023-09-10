@@ -6,6 +6,7 @@ import LikeButton from './components/LikeButton';
 import Todo from './components/Todo';
 import ProductList from './components/ProductList';
 import Accordion from './components/Accordion';
+import CommentList from './components/CommentList';
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,13 @@ const App = () => {
   const countUp = () => {
     setCount(count + 1);
   }
+  const commentsList = [
+    { username: "Kazik Staszewski", text: "Wszyscy artyści to prostytutki" },
+    { username: "Stanisław Witkiewicz", text: "Polityka to w krysztale pomyje" },
+    { username: "Autor Nieznany", text: "Lepiej z mądrym zgubić niż z głupim znaleźć" },
+    { username: "Jacek Cygan", text: "A ja wolę moją mamę" },
+  ];
+  
   
   return (
     <div className="app">
@@ -26,6 +34,7 @@ const App = () => {
       <Todo taskName="Kupić dekski na płot" />
       <ProductList />
       <Accordion />
+      <CommentList comments={commentsList} />
     </div>
   );
 };

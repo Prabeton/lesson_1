@@ -1,4 +1,4 @@
-button {
+.plusone {
 	margin: 20px;
 	width: 150px;
 	height: 50px;
@@ -9,7 +9,7 @@ button {
 	font-weight: 700;
 	color: azure;
 }
-button:hover {
+.plusone:hover {
 	cursor: pointer;
 	background-color: darkgreen;
 }
