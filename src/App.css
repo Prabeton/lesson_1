@@ -1,10 +1,31 @@
 .app {
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	width: 90vw;
-	min-height: 90vh;
-	background-color: #444;
-	font-size: 16px;
+	width: 100vw;
+	font-size: 14px;
+	
+}
+.header {
+	font-size: 28px;
+	padding: 10px;
+	font-weight: 600;
+}
+.body {
+	display: flex;
+	justify-content: space-between;
+}
+.leftColumn{
+	min-width: 500px;
+}
+.rightColumn {
+	margin-left: 30px;
+	min-width: 500px;
+}
+.centerColumn {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }

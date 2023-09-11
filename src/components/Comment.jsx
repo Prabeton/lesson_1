@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import styles from './Comment.module.css';
 
 const Comment = ( props ) => {
@@ -34,7 +34,7 @@ const Comment = ( props ) => {
 	return (
 		<div className={`${styles.commentField} ${styles.indentation}`}>
 			<div className={styles.username}>{props.username}</div>
-			<span className={styles.text}>{props.text}</span>
+			<div className={styles.text}>{props.text}</div>
 			<button className={styles.reply} onClick={handleReplyClick}>Reply</button>
 			{showReplyField && (
 			<div>

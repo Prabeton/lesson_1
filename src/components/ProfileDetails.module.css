@@ -8,11 +8,11 @@
 .title {
 	display: flex;
 	justify-content: left;
-	color: rgb(5, 35, 60);
+	/* color: rgb(5, 35, 60); */
 	font-size: 18px;
 }
 .email {
-	color: rgb(5, 35, 60);
+	/* color: rgb(5, 35, 60); */
 	font-size: 18px;
 	display: flex;
 	justify-content: left;

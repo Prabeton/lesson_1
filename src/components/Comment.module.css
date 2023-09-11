@@ -1,11 +1,14 @@
 
 .commentField {
+	width: 420px;
+	margin-top: 10px;
 	display: flex;
 	justify-content: left;
 	flex-direction: column;
 	align-items: start;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	word-wrap: break-word; 
+  	overflow: hidden; 
 }
 .commentField .indentation {
 	margin-left: 18px;
@@ -33,8 +36,11 @@
 	font-weight: 700;
 }
 .text {
-	font-size: 18px;
+	font-size: 16px;
 	font-style: italic;
+	text-wrap: wrap;
+	width: 400px;
+	
 }
 .replyField {
 	border-radius: 3px;

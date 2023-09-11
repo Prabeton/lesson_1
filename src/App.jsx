@@ -7,6 +7,8 @@ import Todo from './components/Todo';
 import ProductList from './components/ProductList';
 import Accordion from './components/Accordion';
 import CommentList from './components/CommentList';
+import ThemeProvider from './components/ThemeProvider';
+// import ThemeButton from './components/ThemeButton';
 import './App.css';
 
 const App = () => {
@@ -23,19 +25,26 @@ const App = () => {
   
   
   return (
-    <div className="app">
-      <h1>React Lesson One</h1>
-      <GreetingCard name="Przemysław"/>
-      <UserProfile />
-      <LikeButton count={count} onClick={countUp} />
-      <Todo taskName="Naprawić drzwi wejściowe" />
-      <Todo taskName="Zafugować płytki" />
-      <Todo taskName="Położyć kostkę na werandzie" />
-      <Todo taskName="Kupić dekski na płot" />
-      <ProductList />
-      <Accordion />
-      <CommentList comments={commentsList} />
-    </div>
+    <ThemeProvider>
+        <div className="app">
+          <div className="header">React Lesson One</div>
+          <div className="body">
+            <div className="leftColumn">lewa kolumna</div>
+            <div className="centerColumn">
+              <GreetingCard name="Przemysław"/>
+              <UserProfile />
+              <LikeButton count={count} onClick={countUp} />
+              <Todo taskName="Naprawić drzwi wejściowe" />
+              <Todo taskName="Zafugować płytki" />
+              <Todo taskName="Położyć kostkę na werandzie" />
+              <Todo taskName="Kupić dekski na płot" />
+              <ProductList />
+              <Accordion />
+            </div>
+            <div className="rightColumn"><CommentList comments={commentsList} /></div>
+          </div>
+        </div>
+    </ThemeProvider>
   );
 };
 

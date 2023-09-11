@@ -39,13 +39,13 @@
   <!-- - Make a `Product` component which displays a product's name, price, and description passed as props. Then, make a ProductList component that takes an array of products and renders a list of `Product` components. -->
   * Utwórz komponent `Produkt`, który wyświetla nazwę produktu, cenę i opis przekazane jako props. Następnie utwórz komponent `ProductList`, który pobiera tablicę produktów i wyświetla listę komponentów `Produkt`.
 
-### 6. Accordion
-<!-- - Design an `AccordionItem` component that has a title and hidden content. When the title is clicked, the hidden content should toggle visibility. Then, create an `Accordion` component that takes an array of items (with titles and content) and renders them using the `AccordionItem` component. -->
-* Zaprojektuj komponent `AccordionItem`, który ma tytuł i ukrytą treść. Po kliknięciu tytułu ukryta treść powinna przełączyć widoczność. Następnie utwórz komponent `Accordion`, który pobiera tablicę elementów (wraz z tytułami i treścią) i renderuje je przy użyciu komponentu `AccordionItem`.
+  ### 6. Accordion
+  <!-- - Design an `AccordionItem` component that has a title and hidden content. When the title is clicked, the hidden content should toggle visibility. Then, create an `Accordion` component that takes an array of items (with titles and content) and renders them using the `AccordionItem` component. -->
+  * Zaprojektuj komponent `AccordionItem`, który ma tytuł i ukrytą treść. Po kliknięciu tytułu ukryta treść powinna przełączyć widoczność. Następnie utwórz komponent `Accordion`, który pobiera tablicę elementów (wraz z tytułami i treścią) i renderuje je przy użyciu komponentu `AccordionItem`.
 
-### 7. Comment System
-<!-- - Build a `Comment` component that takes username and commentText as props. Next, make a `CommentList` component that receives an array of comments. This should display a list of comments, demonstrating props drilling as you pass individual comment details down to the `Comment` component. Add a counter at the top of the `CommentList` showing the number of comments. -->
-* Zbuduj komponent `Comment`, który przyjmuje 'username' i tekst komentarza jako props. Następnie utwórz komponent `CommentList`, który będzie odbierał tablicę komentarzy. Powinno to wyświetlić listę komentarzy, pokazując 'props drilling' podczas przekazywania szczegółów poszczególnych komentarzy do komponentu `Comment`. Dodaj licznik na górze `Listy komentarzy`, pokazujący liczbę komentarzy.
+  ### 7. Comment System
+  <!-- -Build a `Comment` component that takes username and commentText as props. Next, make a `CommentList` component that receives an array of comments. This should display a list of comments, demonstrating props drilling as you pass individual comment details down to the `Comment` component. Add a counter at the top of the `CommentList` showing the number of comments. -->
+  * Zbuduj komponent `Comment`, który przyjmuje 'username' i tekst komentarza jako props. Następnie utwórz komponent `CommentList`, który będzie odbierał tablicę komentarzy. Powinno to wyświetlić listę komentarzy, pokazując 'props drilling' podczas przekazywania szczegółów poszczególnych komentarzy do komponentu `Comment`. Dodaj licznik na górze `Listy komentarzy`, pokazujący liczbę komentarzy.
 
 ### 8. Dynamic Tabs
 <!-- - Create a `Tab` component that takes a label and children. Then, make a `TabList` component that composes multiple Tab components. Only the content of the selected tab should be visible. This will involve passing down callback functions as props and lifting up state. -->
