@@ -1,10 +1,13 @@
 .tabList {
+	width: 500px;
 	background-color: transparent;
 	cursor: pointer;
-	color: rgb(41, 222, 107);
 	display: flex;
+	border: 2px solid black;
+	color: #555;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
 }
-/* .tabContent {
-	background-color: aliceblue;
-	color: black;
-} */
+

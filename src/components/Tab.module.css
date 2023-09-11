@@ -1,11 +1,17 @@
-
+.tab {
+	color: yellowgreen;
+	margin-left: 10px;
+	font-size: 18px;
+}
 .content {
-	background-color: aqua;
+	margin-top: 5px;
+	background-color: #999;
+	font-size: 18px;
+	color: black;
+	border-radius: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-weight: 600;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.tab:hover {
-	color: purple;
-	background-color: aquamarine;
-}
-.tab.active {
-	background-color: blue;
-}
+

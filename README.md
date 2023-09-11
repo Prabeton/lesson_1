@@ -47,9 +47,9 @@
   <!-- -Build a `Comment` component that takes username and commentText as props. Next, make a `CommentList` component that receives an array of comments. This should display a list of comments, demonstrating props drilling as you pass individual comment details down to the `Comment` component. Add a counter at the top of the `CommentList` showing the number of comments. -->
   * Zbuduj komponent `Comment`, który przyjmuje 'username' i tekst komentarza jako props. Następnie utwórz komponent `CommentList`, który będzie odbierał tablicę komentarzy. Powinno to wyświetlić listę komentarzy, pokazując 'props drilling' podczas przekazywania szczegółów poszczególnych komentarzy do komponentu `Comment`. Dodaj licznik na górze `Listy komentarzy`, pokazujący liczbę komentarzy.
 
-### 8. Dynamic Tabs
-<!-- - Create a `Tab` component that takes a label and children. Then, make a `TabList` component that composes multiple Tab components. Only the content of the selected tab should be visible. This will involve passing down callback functions as props and lifting up state. -->
-* Utwórz komponent `Tab`, który pobiera 'label' i elementy podrzędne (children). Następnie utwórz komponent `TabList`, który składa się z wielu komponentów Tab. Widoczna powinna być tylko zawartość wybranej zakładki. Będzie to obejmować przekazywanie funkcji wywołania zwrotnego jako prop i podnoszenie stanu.
+  ### 8. Dynamic Tabs
+  <!-- - Create a `Tab` component that takes a label and children. Then, make a `TabList` component that composes multiple Tab components. Only the content of the selected tab should be visible. This will involve passing down callback functions as props and lifting up state. -->
+  * Utwórz komponent `Tab`, który pobiera 'label' i elementy podrzędne (children). Następnie utwórz komponent `TabList`, który składa się z wielu komponentów Tab. Widoczna powinna być tylko zawartość wybranej zakładki. Będzie to obejmować przekazywanie funkcji wywołania zwrotnego jako prop i podnoszenie stanu.
 
   ### 9. Theme Switcher
   <!-- - Design a `ThemeProvider` component that wraps around other components and provides a light or dark theme to them. Components inside `ThemeProvider` should change their background and text colors based on the theme. Use useState to toggle between light and dark themes. Also, implement a `ThemeButton` inside the `ThemeProvider` to toggle the theme. -->

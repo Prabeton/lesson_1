@@ -12,16 +12,14 @@ const TabList = ( { children } ) => {
 		<div className={styles.tabList}>
 		  {children.map((child) => {
 			const label = child.props.label;
-			const content = child.props.children;
+			// const content = child.props.children;
 			return React.cloneElement(child, {
 				key: label,
 			  	isActive: label === activeTab,
 			  	onClick: handleTabClick,
 			});
 		  })}
-		  {/* <div className={styles.tabContent}>
-			{children.find((child) => child.props.label === activeTab)?.props.children}
-		  </div> */}
+		  
 		</div>
 	);
 	

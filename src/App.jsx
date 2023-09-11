@@ -32,9 +32,9 @@ const App = () => {
           <div className="body">
             <div className="leftColumn">
             <TabList>
-              <Tab label="Zakładka 1">Zawartość zakładki 1</Tab>
-              <Tab label="Zakładka 2">Zawartość zakładki 2</Tab>
-              <Tab label="Zakładka 3">Zawartość zakładki 3</Tab>
+              <Tab label="One">Jeden strzał</Tab>
+              <Tab label="Two">Dwa trupy</Tab>
+              <Tab label="Three">Trzy zagadki</Tab>
             </TabList>
             </div>
             <div className="centerColumn">
