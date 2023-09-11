@@ -8,7 +8,8 @@ import ProductList from './components/ProductList';
 import Accordion from './components/Accordion';
 import CommentList from './components/CommentList';
 import ThemeProvider from './components/ThemeProvider';
-// import ThemeButton from './components/ThemeButton';
+import Tab from './components/Tab';
+import TabList from './components/TabList';
 import './App.css';
 
 const App = () => {
@@ -29,9 +30,15 @@ const App = () => {
         <div className="app">
           <div className="header">React Lesson One</div>
           <div className="body">
-            <div className="leftColumn">lewa kolumna</div>
+            <div className="leftColumn">
+            <TabList>
+              <Tab label="Zakładka 1">Zawartość zakładki 1</Tab>
+              <Tab label="Zakładka 2">Zawartość zakładki 2</Tab>
+              <Tab label="Zakładka 3">Zawartość zakładki 3</Tab>
+            </TabList>
+            </div>
             <div className="centerColumn">
-              <GreetingCard name="Przemysław"/>
+              <GreetingCard name="Ciekawski Wędrowcze"/>
               <UserProfile />
               <LikeButton count={count} onClick={countUp} />
               <Todo taskName="Naprawić drzwi wejściowe" />

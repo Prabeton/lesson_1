@@ -1,0 +1,10 @@
+.tabList {
+	background-color: transparent;
+	cursor: pointer;
+	color: rgb(41, 222, 107);
+	display: flex;
+}
+/* .tabContent {
+	background-color: aliceblue;
+	color: black;
+} */

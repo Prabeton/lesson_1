@@ -51,30 +51,30 @@
 <!-- - Create a `Tab` component that takes a label and children. Then, make a `TabList` component that composes multiple Tab components. Only the content of the selected tab should be visible. This will involve passing down callback functions as props and lifting up state. -->
 * Utwórz komponent `Tab`, który pobiera 'label' i elementy podrzędne (children). Następnie utwórz komponent `TabList`, który składa się z wielu komponentów Tab. Widoczna powinna być tylko zawartość wybranej zakładki. Będzie to obejmować przekazywanie funkcji wywołania zwrotnego jako prop i podnoszenie stanu.
 
-### 9. Theme Switcher
-<!-- - Design a `ThemeProvider` component that wraps around other components and provides a light or dark theme to them. Components inside `ThemeProvider` should change their background and text colors based on the theme. Use useState to toggle between light and dark themes. Also, implement a `ThemeButton` inside the `ThemeProvider` to toggle the theme. -->
-* Zaprojektuj komponent `ThemeProvider`, który otacza inne komponenty i zapewnia im jasny lub ciemny motyw. Komponenty wewnątrz `ThemeProvider` powinny zmieniać kolory tła i tekstu w zależności od motywu. Użyj useState, aby przełączać między jasnymi i ciemnymi motywami. Zaimplementuj także `ThemeButton` w `ThemeProvider`, aby przełączyć motyw.
+  ### 9. Theme Switcher
+  <!-- - Design a `ThemeProvider` component that wraps around other components and provides a light or dark theme to them. Components inside `ThemeProvider` should change their background and text colors based on the theme. Use useState to toggle between light and dark themes. Also, implement a `ThemeButton` inside the `ThemeProvider` to toggle the theme. -->
+  * Zaprojektuj komponent `ThemeProvider`, który otacza inne komponenty i zapewnia im jasny lub ciemny motyw. Komponenty wewnątrz `ThemeProvider` powinny zmieniać kolory tła i tekstu w zależności od motywu. Użyj useState, aby przełączać między jasnymi i ciemnymi motywami. Zaimplementuj także `ThemeButton` w `ThemeProvider`, aby przełączyć motyw.
 
-### 10. Advanced Comment System with Reply
-<!-- - Expand the Comment System from #7. For each comment, users should be able to click a `Reply` button to write a response. Replies should be nested under the original comment. The structure would look like this: -->
-* Rozwiń system komentarzy z punktu 7. W przypadku każdego komentarza użytkownicy powinni mieć możliwość kliknięcia przycisku `Reply`, aby napisać odpowiedź. Odpowiedzi należy zagnieżdżać pod oryginalnym komentarzem. Struktura wyglądałaby następująco:
+  ### 10. Advanced Comment System with Reply
+  <!-- - Expand the Comment System from #7. For each comment, users should be able to click a `Reply` button to write a response. Replies should be nested under the original comment. The structure would look like this: -->
+  * Rozwiń system komentarzy z punktu 7. W przypadku każdego komentarza użytkownicy powinni mieć możliwość kliknięcia przycisku `Reply`, aby napisać odpowiedź. Odpowiedzi należy zagnieżdżać pod oryginalnym komentarzem. Struktura wyglądałaby następująco:
 
-- Comment 1
-  - Reply 1.1
-  - Reply 1.2 - Reply 1.2.1
-- Comment 2
-  - Reply 2.1
-<!-- For this task:
-The `Comment` component should take an additional prop for replies.
-Use the useState hook for managing the list of replies.
-Incorporate props drilling to handle the nested reply structure.
-The nesting can be represented with margins or different background shades to distinguish between levels. -->
-W tym zadaniu:
-* Komponent `Comment` powinien przyjmować dodatkową opcję odpowiedzi.
-Użyj haka useState do zarządzania listą odpowiedzi.
-Włącz 'props drilling', aby obsłużyć zagnieżdżoną strukturę odpowiedzi.
-Zagnieżdżenie można przedstawić za pomocą marginesów lub różnych odcieni tła w celu rozróżnienia poziomów.
+  - Comment 1
+    - Reply 1.1
+    - Reply 1.2 - Reply 1.2.1
+  - Comment 2
+    - Reply 2.1
+  <!-- For this task:
+  The `Comment` component should take an additional prop for replies.
+  Use the useState hook for managing the list of replies.
+  Incorporate props drilling to handle the nested reply structure.
+  The nesting can be represented with margins or different background shades to distinguish between levels. -->
+  W tym zadaniu:
+  * Komponent `Comment` powinien przyjmować dodatkową opcję odpowiedzi.
+  Użyj haka useState do zarządzania listą odpowiedzi.
+  Włącz 'props drilling', aby obsłużyć zagnieżdżoną strukturę odpowiedzi.
+  Zagnieżdżenie można przedstawić za pomocą marginesów lub różnych odcieni tła w celu rozróżnienia poziomów.
 
-## Last but not least
-## Nie mniej ważny
-<!-- - have fun! experiment, do not give up, all the techniques needed to acomplish these tasks where preseneted during the live. Remember one thing though! in JSX we use className instead of class, class won't work! -->
+  ## Last but not least
+  ## Nie mniej ważny
+  <!-- - have fun! experiment, do not give up, all the techniques needed to acomplish these tasks where preseneted during the live. Remember one thing though! in JSX we use className instead of class, class won't work! -->

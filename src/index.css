@@ -1,5 +1,12 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 body {
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+	height: 100%;
   }
